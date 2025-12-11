@@ -13,7 +13,10 @@ project {
             id("GitRoot_$i") 
             name = "Git Root #$i"
             url = "https://github.com/ChubatovaTiger/manyBranches"
-            branch = "refs/heads/br-demo$i"   
+            branch = "refs/heads/br-demo$i"
+authMethod = uploadedKey {
+    uploadedKey = "faulty_crocodile"
+  }
            })
         )
     }

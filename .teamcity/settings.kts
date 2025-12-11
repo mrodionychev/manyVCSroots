@@ -14,7 +14,7 @@ project {
             url = "https://github.com/ChubatovaTiger/manyBranches"
             branch = "refs/heads/br-demo-$i"   // Different branch per root
         )
-    }
+    )
 }
 
 

@@ -14,9 +14,8 @@ project {
             name = "Git Root #$i"
             url = "https://github.com/ChubatovaTiger/manyBranches"
             branch = "refs/heads/br-demo$i"   
-            authMethod = password {
-                userName = "ChubatovaTiger"
-                password = "credentialsJSON:e6f46e03-5155-46f5-b9ce-8b510ab63ae1"
+            authMethod = uploadedKey {
+                name = "faulty_crocodile"
             }
            })
         )

@@ -21,6 +21,16 @@ project {
            })
         )
     }
+
+   BuildType({
+    id("Build1")
+    name = "Build1"
+    for (i in 1..N) {
+        vcs {
+            root(RelativeId("GitRoot_$i"))
+        }
+        })
+    }
 }
 
 
